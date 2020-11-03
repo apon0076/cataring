@@ -1,0 +1,323 @@
+/*
+01. Top header CSS
+02.
+*/
+
+/*global css code*/
+/* ul{
+ list-style: none;
+ position: absolute;
+ display: flex;
+ align-items: center;
+ text-decoration: none;   
+} */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+
+
+/* 01. Top header CSS */
+.header{
+    display: block;
+}
+.top-header-area {
+	width: 100%;
+	background-color: #F4CD78;
+	height: 40px;
+	line-height: 37px;
+	padding: 0px 50px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.top-contact-number .fa{
+    color: green;
+    padding-left: 10px;
+
+}
+/*02.Menu area*/
+.main-logo img {
+	height: 120px;
+	width: 200px;
+}
+.main-menu{
+   
+    width: 100%;
+    background-color: white;
+}
+.left-menu ul li, .right-menu ul li{
+    display: inline;
+    
+
+}
+
+.left-menu ul li a:hover, .right-menu ul li a:hover{
+border-bottom: 3px solid #F4CD78;
+}
+.left-menu ul li a, .right-menu ul li a{
+    color:#0F434C ;
+   font-size: 20px;
+   font-weight: 700;
+   font-family:"Open Sans",Sans-serif;
+   padding: 20px;
+   display: inline-block;
+   text-decoration: none;
+   margin-top: 25px;
+  
+
+}
+.right-menu{
+    float: right;
+}
+/*03.Hero area */
+.hero-area{
+   background-image:url('/asset/images/hero-bg.jpg');
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    width: 100%;
+    height: 568px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-bg{
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    opacity:.6;
+    width: 100%;
+    height: 568px;
+}
+.hero-center-content{
+    z-index: 999;
+}
+.hero-center-content h1{
+color: #F4CD78;
+font-family: "Alegreya Sans",Sans-serif;
+font-size: 64px;
+
+font-weight: 600;
+letter-spacing: .5px;
+
+}
+#background{
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 568px;
+}
+/* .hero-bg-image{
+    color: rgba(red, green, blue, alpha);
+    filter: blur(8px);
+
+} */
+
+
+.hero-story{
+    color:white;
+    text-align: center;
+}
+
+.button-customize{
+    background-color:#08AF57 ;
+    font-size: 24px;
+    letter-spacing:0.3px;
+    font-family: "Open Sans",Sans-serif;
+    padding: 25px 50px;
+    border: none;
+    border-radius: 5px;
+}
+.button-customize:hover{
+    background-color:#00BCFF ;
+}
+/*04 Menu section css */
+.container-daily-menu {
+    padding-top: 20px;
+}
+.menu-sction{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.menu-description ul li{
+    font-size:20px;
+    border-bottom: 1px solid gray;
+    margin: 0px 15px;
+    padding: 10px 10px 10px 5px;
+}
+.bg-1{
+    background-image: url('./asset/images/hero-bg.jpg');
+   
+}
+.single-product{
+    background-color: #F7F7F7;
+    margin: 15px 0px;
+    height: 540px;
+    position: relative;
+}
+
+.menu-top{
+    background-color: #F4CD78;
+   padding: 20px 0px;
+    text-align: center;
+    color: #0F434C;
+ 
+}
+.menu-price{
+    font-size: 44px !important;
+    font-weight: 800;
+}
+.price-sbu-menu{
+    display: block;
+    font-size: medium;
+    font-weight: 400;
+    line-height: normal;
+}
+.menu-title{
+    line-height: 1.2rem;
+    font-size:24px;
+    font-weight: 600;  
+}
+.menu-subtitle{
+    font-weight: 400;
+    color: #fff;
+    font-size: 15px;
+}
+.menu-description{
+    text-align: center;
+}
+.customer-btn{
+margin: 10px 0px;
+position: absolute;
+bottom: 10px;
+left: 35%;
+
+}
+.customer-btn:hover{
+    background-color: #00BCFF;
+    
+}
+
+button.btn.btn-success.customer-btn {
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-list-section{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*  second section*/
+
+.section2{
+font-size: 24px;
+color: #fff;
+padding: 20px 40px;
+margin: 0px 10px;
+
+
+}
+.section2:hover{
+background-color: #00BCFF;
+}
+/*footer top css */
+.footer-area{
+    background-color:#54595F;
+    color: white;
+    padding: 35px 0px;
+}
+
+.footer-sub-title{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Alegreya Sans SC",Sans-serif;
+    }
+.footer-input input[type="text"] {
+        padding: 20px 0px;
+        margin: 10px 0px;
+        border: none;
+        background-color: #63686D;
+        color: white;
+    }
+   input::placeholder{
+color: white;
+opacity: 1
+    }
+/* footer bottom css */
+.contact-info ul li{
+    padding: 8px 0px;
+}
+.contact-info ul li a{
+text-decoration: none;
+color: white;
+
+
+}
+.contact-info .fa{
+color: #F4CD78;
+padding-right: 11px;
+font-size: 16px;
+}
+.footer-bottom{
+    background-color:#43464c;
+ 
+    line-height: 65px;
+    color: white;
+}
+
+
+.social-icon{
+    padding-right: 10px;
+}
+.social-icon .fa{
+    color: white;
+}
+.social-icon ul {
+    display: inline;
+    padding: 0px 10px;
+}
+
+@media screen and (max-width: 600px){
+    .top-contact-number {
+        position: absolute;
+        left: 25%;
+    }
+    .footer-bottom{
+      text-align: center;
+    }
+    .halcyon-button-group button{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+
+
+    }
+    .halcyon-button-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .single-product.single-package-block{
+        height: 600px;
+    }
+
+    .hero-area{
+        height: 850px;
+    }
+
+}
+
